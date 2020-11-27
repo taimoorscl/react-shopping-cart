@@ -1,5 +1,2 @@
-const formatCurrency =(num) => {
-      return `$${Number(num.toFixed(1)).toLocaleString()}`
-}
-
-export default formatCurrency
+export const formatCurrency = (num) =>
+  `$${Number(num.toFixed(1)).toLocaleString()}`;
