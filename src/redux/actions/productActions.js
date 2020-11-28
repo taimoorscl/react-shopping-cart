@@ -3,7 +3,7 @@ import {
   FILTER_PRODUCTS_BY_SIZE,
   ORDER_PRODUCTS_BY_PRICE,
 } from "../constatnts";
-import data from "../data.json";
+import data from "../../data.json";
 
 export const fetchProducts = () => (dispatch) => {
   dispatch({

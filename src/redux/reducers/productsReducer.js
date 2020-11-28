@@ -1,4 +1,3 @@
-import { filterProducts } from "../actions/productActions";
 import {
   FETCH_PRODUCTS,
   FILTER_PRODUCTS_BY_SIZE,
