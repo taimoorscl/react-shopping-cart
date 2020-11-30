@@ -1,0 +1,37 @@
+.rigth-com {
+      border-left: .05px solid grey;
+      height: 100%;
+
+}
+
+.left-com {
+      overflow: scroll;
+      max-height: 100%;
+      max-width: 100%;
+      background-color: rgba(223, 204, 204, 0.376);
+}
+
+.canvas-self {
+      max-width: 95%;
+      height: 95vh;
+      margin: 3rem;
+      background-color: rgb(204, 200, 200);
+}
+
+.canvas-child {
+      
+}
+
+.left-btn-cont {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.left-btn {
+      width: 5rem;
+      height: 5rem;
+      margin: .1rem;
+      font-size: .8rem;
+      align-items: center;
+      justify-content: center;
+}
